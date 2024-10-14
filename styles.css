@@ -54,7 +54,7 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 50%; /* resize the image to 50% of its original width */
     height: auto; /* maintain the aspect ratio */
-    margin-left:430px;
+    margin-left:23%;
     display: flex;
 }
 
