@@ -1,0 +1,94 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: white;
+        background-image: url('Screenshot_8.png'); 
+        background-size: cover;
+        background-position: center;
+    }
+
+
+
+header {
+    background-color:#3e4bff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #3e4bff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+
+
+#ia-image {
+    
+    cursor: pointer;
+    position: center;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 50%; /* resize the image to 50% of its original width */
+    height: auto; /* maintain the aspect ratio */
+    margin-left:430px;
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#link-ia {
+    text-decoration: none;
+    color:  #3e4bff;
+}
+
+#link-ia:hover {
+    color:  #3e4bff;
+}
+
+footer {
+    background-color: #0600b1; /* fondo gris claro */
+    padding: 20px; /* espacio entre el contenido y el borde */
+    text-align: center; /* texto centrado */
+    color: #ffffff; /* texto gris oscuro */
+    font-size: 14px; /* tamaño de fuente */
+    border-top: 1px solid #ccc; /* borde superior gris claro */
+}
+
+footer p {
+    margin-bottom: 10px; /* espacio entre el texto y el borde inferior */
+}
+
+section p {
+    background-color: #3b47e8; /* fondo gris claro */
+    padding: 10px; /* espacio entre el texto y el borde */
+    border-radius: 3px;
+}
